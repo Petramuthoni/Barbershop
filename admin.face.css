@@ -1,0 +1,282 @@
+
+.carousel-img{
+	height: 450px;
+}
+
+#myCarousel img{
+	height: 450px;
+	width: 100%;
+}
+
+.container-title{
+	padding: 10%;
+}
+
+.container-title2{
+	padding: 8%;
+}
+
+.page-title{
+	color:white;
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+#text-carousel{
+	height: 200px;
+}
+
+.container-promo h1{
+	color:white;
+	text-align: center;
+}
+
+.container-promo{
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+}
+
+
+#info{	
+	margin: auto;
+	padding-top: 10px;
+}
+
+.seleccion-producto {
+	float: right;
+	background-color: white;
+	color: black;	
+	text-align: center;	
+	height: 30px;
+}
+
+
+#info div h3{
+	/*display: inline-block;
+	width: 25%;*/	
+	font-family: 'Baloo', cursive;
+	font-size: 30px;	
+	margin: 0px 20px;
+	text-align: center;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+}
+
+
+#info p{
+	margin: 0px 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+#home {
+	background-image: url('../img/fondo.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.carousel-dos{
+	width: 100%;	
+}
+
+#map{
+	width: 100%;
+}
+
+.dropdown-menu{
+	background: black;
+}
+
+/*Pantallas grandes*/
+@media only screen and (min-width: 959px) {
+	.container-promo p{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}
+	#home{
+		height: 650px;
+	}
+	#bannerOrdenar{
+		height: 250px;
+	}
+	.page-title{
+		font-size: 70px;
+	}
+
+	.carousel-inner{
+		height: 600px;
+	}
+
+	#myCarousel2 img{
+		height: 600px;
+		width: 100%;
+	}
+
+	#mision{
+		padding: 40px 100px;
+	}
+
+	#misionP{
+		font-family: 'Baloo', cursive;
+		text-align: center;
+		font-size: 25px;
+	}	
+	#map{
+		height: 250px;
+	}
+}
+/*Pantalals medianas*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container-promo h1{
+		font-size: 30px;
+	}
+	.container-promo p{
+	color: white;
+	font-size: 14px;
+	text-align: center;
+
+	}
+	#home{
+		height: 500px;
+	}
+	#bannerOrdenar{
+		height: 100px;
+	}
+	.page-title{
+		font-size: 55px;
+	}
+	.carousel-inner{
+		height: 350px;
+	}
+
+	#myCarousel2 img{
+		height: 350px;
+		width: 100%;
+	}
+
+	#copyright{
+		text-align: center;
+	}
+
+	.footer p{
+		text-align: center;
+	}
+	
+	#mision{
+		padding: 40px 70px;
+	}
+
+	#misionP{
+		font-family: 'Baloo', cursive;
+		text-align: center;
+		font-size: 22px;
+	}
+	#map{
+		height: 300px;
+
+	}
+}
+
+/*Pantallas chicas*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container-promo h1{
+		font-size: 25px;
+	}
+	.container-promo p{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+
+	}
+	#home{
+		height: 550px;
+	}
+	#bannerOrdenar{
+		height: 150px;
+	}
+	.page-title{
+		font-size: 40px;
+	}
+	.carousel-inner{
+		height: 250px;
+	}
+
+	#myCarousel2 img{
+		height: 250px;
+		width: 100%;
+	}
+
+	#copyright{
+		text-align: center;
+	}
+	.footer p{
+		text-align: center;
+	}
+	#mision{
+		padding: 30px 50px;
+	}
+	
+	#misionP{
+		font-family: 'Baloo', cursive;
+		text-align: center;
+		font-size: 18px;
+	}
+	#map{
+		height: 350px;
+
+	}
+}
+/*Pantallas ultra chicas*/
+@media only screen and (max-width: 479px) {
+	.container-promo h1{
+		font-size: 25px;
+	}
+	.container-promo p{
+	color: white;
+	font-size: 12px;
+	text-align: center;
+
+	}
+	#home{
+		height: 550px;
+	}
+	#bannerOrdenar{
+		height: 150px;
+	}
+	.page-title{
+		font-size: 40px;
+	}
+	.carousel-inner{
+		height: 250px;
+	}
+
+	#myCarousel2 img{
+		height: 250px;
+		width: 100%;
+	}
+
+	#copyright{
+		text-align: center;
+	}
+	.footer p{
+		text-align: center;
+	}
+	#mision{
+		padding: 30px 50px;
+	}
+	
+	#misionP{
+		font-family: 'Baloo', cursive;
+		text-align: center;
+		font-size: 10px;
+	}
+	#map{
+		height: 350px;
+
+	}
+	.modal-footer{
+		display: inline;
+	}
+}

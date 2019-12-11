@@ -1,0 +1,33 @@
+#logo{
+	font-family: 'Pacifico', cursive;
+	font-size: 18px;
+}
+.footer{
+	 background: linear-gradient(to top, black, #222723);
+}
+.footer p,#author{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-width: 768px){
+	html {
+	  position: relative;
+	  min-height: 100%;
+	}
+	body {
+		margin-bottom: 60px;
+	}
+	.footer {
+		position: absolute;
+	  	bottom: 0;
+	  	width: 100%;
+	  	height: auto;
+	}
+}
+
+@media only screen and (max-width: 959px) {
+	.footer p{
+		text-align: center;
+	}
+}
